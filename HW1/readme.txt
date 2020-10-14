@@ -10,7 +10,7 @@ Note that all the input data files must be in comma-delimited CSV format, and it
 
 The data should all be ready to run, the only issue could be a file-pathing issue in which the paths on line 5 and 6 may have to be altered.
 
-The test data comes from the last 20 items in the breast-cancer-wisconsin data set. For some reason some items have the same ID but have different feature values.
+The test data comes from the last 30 items in the breast-cancer-wisconsin data set. For some reason some items have the same ID but have different feature values.
 
   1.	On line 5 set ‘train_file_path’ to desired file path (should be set already)
   2.	On line 6 it says ‘test_file_path,’ put the file path to the test data there (should be set   already)
