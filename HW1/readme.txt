@@ -20,4 +20,4 @@ The test data comes from the last 20 items in the breast-cancer-wisconsin data s
     b.	If there was an issue with having the correct dimensions, it should throw an error saying incorrect dimensions and adjust accordingly, the distance(a,b) function was developed to only take the portion of the data that contains the features, so there should be no ID number and no classification value in the input lists.
   5.	Run the code
   6.	Output should print out the test point array, along with the classified value next to it
-  7.	Output should also create a ‘kNCC_results.txt’ file, which shows the ID number, the predicted value, the actual value, and if the algorithm classified correctly. On the bottom is an accuracy measure.	
+  7.	Output should also create a ‘kNCC_results.txt’ file, which shows the ID number, the predicted value, the actual value, and if the algorithm classified correctly. On the bottom of the file is an accuracy measure.	
