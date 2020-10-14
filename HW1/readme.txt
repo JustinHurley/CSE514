@@ -12,6 +12,7 @@ The data should all be ready to run, the only issue could be a file-pathing issu
 
 The test data comes from the last 30 items in the breast-cancer-wisconsin data set. For some reason some items have the same ID but have different feature values.
 
+The code to run is in the knn.py file
   1.	On line 5 set ‘train_file_path’ to desired file path (should be set already)
   2.	On line 6 it says ‘test_file_path,’ put the file path to the test data there (should be set   already)
   3.	On line 7, set the desired value of k, it is currently set to 5
