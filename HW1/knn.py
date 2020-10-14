@@ -74,7 +74,7 @@ def run_k_nearest_nodes(k, train_file_path, test_file_path):
     else:
       to_txt.append([item[0][0], predicted, actual, 'NO'])
   to_txt.append(['Accuracy:',(correct/len(classified))])
-  np.savetxt('kNNC_results.txt', to_txt, delimiter=',', fmt='%s')
+  np.savetxt('HW1/kNNC_results.txt', to_txt, delimiter=',', fmt='%s')
   return
 
 run_k_nearest_nodes(k, train_file_path, test_file_path)
